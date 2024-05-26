@@ -26,8 +26,8 @@ public class home {
 		driver.get("file:///D:/SeleniumAutomation/05DemoApps/demo.html");
 		driver.manage().window().maximize();
 	Home hh=new Home(driver);
-hh.enterFirstDataIntoString("xxx");
-hh.enterLastDataIntoString("yy");
+hh.enterFirstDataIntoString("SSS");
+hh.enterLastDataIntoString("PP");
 	try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
