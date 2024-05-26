@@ -25,16 +25,31 @@ public class home {
 		System.out.println("Start TestNG : " + this.getClass().getSimpleName());
 		driver.get("file:///D:/SeleniumAutomation/05DemoApps/demo.html");
 		driver.manage().window().maximize();
-	Home hh=new Home(driver);
-hh.enterFirstDataIntoString("SSS");
-hh.enterLastDataIntoString("PP");
-	try {
+		Home hh = new Home(driver);
+		hh.enterFirstDataIntoString("SSS");
+		hh.enterLastDataIntoString("PP");
+		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
 		}
 
 	}
+
+	@Test
+	public void revertTest()
+	{
+		System.out.println("Start TestNG : " + this.getClass().getSimpleName());
+		Home hh = new Home(driver);
+		hh.enterFirstDataIntoString("PPP");
+		hh.enterLastDataIntoString("SS");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
 
 	@AfterClass
 	public void tearDown() {
