@@ -1,0 +1,13 @@
+package pomSearch;
+
+import org.openqa.selenium.WebDriver;
+
+public class Search1 {
+
+	public String myDevelopment="Development";
+	public String myQA="QA";
+	
+	public WebDriver driver=null;
+	
+	
+}

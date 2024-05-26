@@ -1,0 +1,34 @@
+package pomHome;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Home {
+public WebDriver driver=null;
+
+public String First="fname";
+public String Last="lname";
+
+	public Home(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	public WebElement getElementFirstName(String FName)
+	{
+		WebElement fname1 = driver.findElement(By.id(FName));
+		retrun fname1;
+	}
+	
+	public void enterDataIntoString(,String Data)
+	{
+		WebElement fname1 = driver.findElement(By.id(FName));
+		fname1.sendKeys(Data);
+	
+	}
+	
+	
+	
+	
+}

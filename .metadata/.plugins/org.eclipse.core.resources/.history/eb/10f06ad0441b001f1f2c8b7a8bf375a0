@@ -1,0 +1,10 @@
+package pomHome;
+
+public class Home {
+
+	public Home(WebDriver driver)
+	{
+		
+	}
+	
+}

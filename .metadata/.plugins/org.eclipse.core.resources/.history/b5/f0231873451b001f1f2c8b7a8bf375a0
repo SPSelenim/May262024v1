@@ -1,0 +1,32 @@
+package pomHome;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Home {
+public WebDriver driver=null;
+
+public String FName="fname";
+public String LName="lname";
+
+	public Home(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	public WebElement getFirstName()
+	{
+		WebElement fname1 = driver.findElement(By.id("First"));
+		
+	}
+	public void Senkeys()
+	{
+		driver.findElement(By.id("fname")).sendKeys("xxxx");
+		driver.findElement(By.id("lname")).sendKeys("yyy");
+
+	}
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package search;
+
+import org.testng.annotations.Test;
+
+public class Search1 {
+  @Test
+  public void f() {
+  }
+}

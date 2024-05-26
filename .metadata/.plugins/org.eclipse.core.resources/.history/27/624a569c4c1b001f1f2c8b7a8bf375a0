@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T16:06:09 IST" name="Suite" finished-at="2024-05-26T16:06:21 IST" duration-ms="12008">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T16:06:09 IST" name="Test" finished-at="2024-05-26T16:06:21 IST" duration-ms="12008">
+      <class name="home.home">
+        <test-method is-config="true" signature="tearSetup()[pri:0, instance:home.home@76a4ebf2]" started-at="2024-05-26T16:06:09 IST" name="tearSetup" finished-at="2024-05-26T16:06:11 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearSetup -->
+        <test-method signature="f()[pri:0, instance:home.home@76a4ebf2]" started-at="2024-05-26T16:06:11 IST" name="f" finished-at="2024-05-26T16:06:13 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:home.home@76a4ebf2]" started-at="2024-05-26T16:06:13 IST" name="tearDown" finished-at="2024-05-26T16:06:14 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- home.home -->
+      <class name="search.SearchTest">
+        <test-method is-config="true" signature="tearSetup()[pri:0, instance:search.SearchTest@15bb5034]" started-at="2024-05-26T16:06:14 IST" name="tearSetup" finished-at="2024-05-26T16:06:15 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearSetup -->
+        <test-method signature="f()[pri:0, instance:search.SearchTest@15bb5034]" started-at="2024-05-26T16:06:15 IST" name="f" finished-at="2024-05-26T16:06:21 IST" duration-ms="6465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:search.SearchTest@15bb5034]" started-at="2024-05-26T16:06:21 IST" name="tearDown" finished-at="2024-05-26T16:06:21 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- search.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

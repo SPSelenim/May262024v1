@@ -1,0 +1,10 @@
+package pomSearch;
+
+public class Search1 {
+
+	public String myDevelopment="Development";
+	public String myQA="QA";
+	
+	
+	
+}
