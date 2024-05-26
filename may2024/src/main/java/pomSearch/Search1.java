@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class Search1 {
-
+//added Search
 	public String myDevelopment="//a[@name='Development']";
 	public String myQA="//a[@name='QA']";
 	public String myHeader="//b";

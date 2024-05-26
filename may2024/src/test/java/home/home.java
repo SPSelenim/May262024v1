@@ -6,10 +6,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import Utility.baseClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pomHome.Home;
 
-public class home {
+public class home extends baseClass{
 
 	public WebDriver driver = null;
 
@@ -50,8 +52,19 @@ public class home {
 		}
 	}
 
+@Test
+public void readPropertiesData()
+{
+	readProperties();
+}
+	
+@Test
+public void readExcelData1()
+{
+	readExel();
+}
 
-	@AfterClass
+@AfterClass
 	public void tearDown() {
 		System.out.println("END TestNG : " + this.getClass().getSimpleName());
 		driver.quit();
