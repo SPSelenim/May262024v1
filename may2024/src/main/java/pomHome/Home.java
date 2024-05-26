@@ -38,7 +38,7 @@ public class Home {
 	public void enterLastDataIntoString(String Data)
 	{
 		getElementLastName().sendKeys(Data);;
-	
+	System.out.println("xxxxx: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 	}
 	
 	
